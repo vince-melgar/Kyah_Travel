@@ -1,9 +1,12 @@
 import Navbar from "../Navbar";
+import Header from "../Header";
+import Footer from "../Footer";
 
 function About() {
   return (
     <div>
       <Navbar />
+      <Header />
       <section id="about" className="py-4">
         <div className="container">
           <div className="title-wrap">
@@ -78,8 +81,9 @@ function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default About;

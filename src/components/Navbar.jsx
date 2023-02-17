@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return(
 
-<nav className="navbar  sticky-top navbar-dark navbar-expand-lg bg-dark shadow small mb-3">
+<nav className="navbar  sticky-top navbar-dark navbar-expand-lg bg-dark shadow small">
     <div className="container-fluid">
             <Link to="/" className="navbar-brand">
                 KYAH.Travel

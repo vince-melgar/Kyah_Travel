@@ -1,9 +1,13 @@
 import Navbar from "../Navbar";
+import Header from "../Header";
+import Footer from "../Footer";
+
 
 function Gallery() {
   return (
     <div>
       <Navbar />
+      <Header />
       <div id="className" class="py-4">
         <div className="container">
           <div className="className-row">
@@ -91,7 +95,8 @@ function Gallery() {
           </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </div>    
   );
 }
 

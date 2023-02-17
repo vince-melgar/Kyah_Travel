@@ -1,9 +1,12 @@
 import Navbar from "../Navbar";
+import Header from "../Header";
+import Footer from "../Footer";
 
 function Contact() {
   return (
     <div>
       <Navbar />
+      <Header />
       <section id="contact" className="py-4">
         <div className="container">
           <div className="title-wrap">
@@ -64,8 +67,9 @@ function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default Contact;

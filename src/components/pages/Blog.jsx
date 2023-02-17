@@ -1,9 +1,12 @@
 import Navbar from "../Navbar";
+import Header from "../Header";
+import Footer from "../Footer";
 
 function Blog() {
   return (
     <div>
       <Navbar />
+      <Header />
       <section id="blog" className="py-4">
         <div className="container">
           <div className="title-wrap">
@@ -166,8 +169,9 @@ function Blog() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default Blog;
