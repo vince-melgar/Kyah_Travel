@@ -17,7 +17,7 @@ function Services() {
                         </span>
                         <h3>Luxurious Hotel</h3>
                         <p className = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
-                        <a href = "#" className = "btn">Read more</a>
+                        
                     </div>
 
                     <div className = "services-item">
@@ -26,7 +26,7 @@ function Services() {
                         </span>
                         <h3>Trave Guide</h3>
                         <p className = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
-                        <a href = "#" className = "btn">Read more</a>
+                        
                     </div>
 
                     <div className = "services-item">
@@ -35,7 +35,7 @@ function Services() {
                         </span>
                         <h3>Suitable Price</h3>
                         <p className = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
-                        <a href = "#" className = "btn">Read more</a>
+                        
                     </div>
                 </div>
             </div>
