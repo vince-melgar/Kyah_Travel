@@ -5,81 +5,16 @@
   --trans: all 0.3s ease-in-out;
 }
 
-/* navbar2 */
-.img-responsive {
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
-i.fa.fa-arrow-up {
-  position: fixed;
-  bottom: 20px;
-  right: 25px;
-  background-color: #00a8c5;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 50px;
-  cursor: pointer;
-  z-index: 1;
-}
-div#toggle-btn {
-  display: none;
-}
-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 99;
-  /* background-color: red; */
-}
-.menu-par {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logo-par h2 {
-  color: #fff;
-  font-size: 40px;
-}
 
-.nav ul li {
-  display: inline-block;
+.navbar ul li :hover {
+  color: var(--green);
+  text-decoration: underline;
 }
-.nav ul li a:before {
-  content: "s";
-  position: absolute;
-  top: 0;
-  left: 10px;
-  background-color: #fff;
-  width: 0%;
-  height: 2px;
-  font-size: 0px;
-  transition: all 0.5s ease;
-}
-.nav ul li a:hover:before {
-  width: 74%;
-}
-.nav ul li a {
-  color: black;
+.navbar ul li a {
+  color: var(--light-grey);
   padding: 10px;
   position: relative;
-}
-/* navigation-fixed */
-.nav-fixed {
-  background-color: #fff;
-  box-shadow: 2px 2px 10px #bbb;
-}
-.nav-fixed .menu-par {
-  padding: 10px 0px;
-}
-
-.nav-fixed h2 {
-  color: #00a8b4;
-}
-.nav-fixed ul li a {
-  color: #00a8b4;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -89,7 +24,7 @@ nav {
     z-index: 1;
   }
   .nav {
-    background-color: #000;
+    background-color: white;
     position: fixed;
     top: 0;
     left: -100%;
@@ -100,7 +35,7 @@ nav {
   .nav-active {
     left: 0;
   }
-  #toggle-btn i.nav-active:before {
+  #toggle-btn i.navbar-active:before {
     content: "\f00d";
   }
 
@@ -124,15 +59,6 @@ nav {
     line-height: 26px;
   }
 }
-
-/* header */
-/* video {
-  position: relative;
-  width: 70%;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-} */
 
 header {
   min-height: 100vh;
