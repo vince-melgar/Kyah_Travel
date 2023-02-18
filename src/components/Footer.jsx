@@ -9,37 +9,23 @@ function Footer() {
                     <a href = "#main" className = "site-brand">
                         KYAH|<span> Tra.</span>
                     </a>
-                    <p className = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium reiciendis ipsa suscipit veritatis voluptate.</p>
+                    <p className = "text">Indulge in a world of wanderlust and create unforgettable memories with our customized travel experiences. Let us be your guide as you embark on a journey of a lifetime.</p>
                 </div>
 
                 <div className = "footer-item">
                     <h2>Follow us on: </h2>
                     <ul className = "social-links">
                         <li>
-                            <a href = "#">
+                            <a href = "https://www.facebook.com/kyahtravelandtours">
                                 <i className = "fab fa-facebook-f"/>
                             </a>
                         </li>
                         <li>
-                            <a href = "#">
+                            <a href = "https://www.instagram.com/kyah_travel_and_tours/">
                                 <i className = "fab fa-instagram"/>
                             </a>
                         </li>
-                        <li>
-                            <a href = "#">
-                                <i className = "fab fa-twitter"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#">
-                                <i className = "fab fa-pinterest"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#">
-                                <i className = "fab fa-google-plus"/>
-                            </a>
-                        </li>
+                      
                     </ul>
                 </div>
 

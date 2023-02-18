@@ -12,34 +12,34 @@ function Testimonials() {
 
                 <div className = "test-row">
                     <div className = "test-item">
-                        <p className = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis, asperiores, velit iste eos officiis tempora magni quaerat quo consectetur expedita cum recusandae facere nam voluptate minus iusto eum. Delectus!</p>
+                        <p className = "text">Thank you very much KYAH for showing us around Ilocos. The driver and coordinators are very nice to us. We pray for the continuing sucess of your bookings.</p>
                         <div className = "test-item-info">
                             <img src = "./src/images/test-1.jpg" alt = "testimonial"/>
                             <div>
-                                <h3>Kevin Wilson</h3>
-                                <p className = "text">Trip to Bagiuo</p>
+                                <h3>Demi Bastawang Ducay</h3>
+                                <p className = "text">Trip to Ilocos</p>
                             </div>
                         </div>
                     </div>
 
                     <div className = "test-item">
-                        <p className = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ut dolores tenetur harum deserunt. Maxime tenetur consectetur recusandae nobis fugit iusto natus quibusdam nulla!</p>
+                        <p className = "text">Visited Sagada in 2019 and Ilocos this year as a joiner. Kyah never let me feel alone. Everything was well-organized. I enjoyed every moment of the trip. So loved the places we visited, ate, and stayed. Looking forward with more travel with Kyah in the next years. See you soon, Kyah Rein and Ses Giselle! 💙💙</p>
                         <div className = "test-item-info">
                             <img src = "./src/images/test-2.jpg" alt = "testimonial"/>
                             <div>
-                                <h3>Ben Davis</h3>
-                                <p className = "text">Trip to Anawangin</p>
+                                <h3>Lyndon Balaga</h3>
+                                <p className = "text">Trip to Sagada</p>
                             </div>
                         </div>
                     </div>
 
                     <div className = "test-item">
-                        <p className = "text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sapiente amet expedita quae autem deleniti quo magni numquam facilis soluta dicta, praesentium ipsum, quos optio sed quibusdam! Reprehenderit recusandae provident id nemo!</p>
+                        <p className = "text">Thank you KYAH for making our weekend memorable at Baguio City! Very accommodating and helpful during our trip. The best yung pictures parang nakalibre kami sa prenup hahaha. Maraming salamaaat!</p>
                         <div className = "test-item-info">
                             <img src = "./src/images/test-3.jpg" alt = "testimonial"/>
                             <div>
-                                <h3>Jaura Jones</h3>
-                                <p className = "text">Trip to Sagada</p>
+                                <h3>Tyler Evangelista</h3>
+                                <p className = "text">Trip to Baguio</p>
                             </div>
                         </div>
                     </div>
