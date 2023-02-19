@@ -9,7 +9,7 @@ function Gallery() {
     <div>
       <Navbar />
       <Header />
-      <Album></Album>
+      <Album />
       <Footer />
     </div>    
   );

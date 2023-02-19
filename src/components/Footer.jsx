@@ -15,12 +15,12 @@ function Footer() {
                 <div className = "footer-item">
                     <h2>Follow us on: </h2>
                     <ul className = "social-links">
-                        <li>
+                        <li style={{margin:'0 50px'}}>
                             <a href = "https://www.facebook.com/kyahtravelandtours">
                                 <i className = "fab fa-facebook-f"/>
                             </a>
                         </li>
-                        <li>
+                        <li style={{margin:'0 0px'}}>
                             <a href = "https://www.instagram.com/kyah_travel_and_tours/">
                                 <i className = "fab fa-instagram"/>
                             </a>
