@@ -1,6 +1,7 @@
 import Navbar from "../Navbar";
 import Header from "../Header";
 import Footer from "../Footer";
+import Ourteam from "./Ourteam";
 
 function About() {
   return (
@@ -16,10 +17,10 @@ function About() {
 
           <div className="about-row">
             <div className="about-left my-2">
-              <img src="../src/images/about-img.jpg" alt="about img" />
+              <img src="../src/images/Kyah.logo.jpg" alt="about img" />
             </div>
             <div className="about-right">
-              <h2>15 Years of Experience</h2>
+              <h2>Kyah Tra</h2>
               <p className="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 vitae sed aperiam qui repudiandae earum voluptatem. Modi at
@@ -39,48 +40,7 @@ function About() {
         </div>
       </section>
 
-      <section id="facts" className="py-4 flex">
-        <div className="container">
-          <div className="title-wrap">
-            <span className="sm-title">know some facts about our agency</span>
-            <h2 className="lg-title">fun facts</h2>
-          </div>
-
-          <div className="facts-row">
-            <div className="facts-item">
-              <span className="fas fa-camera-retro facts-icon"></span>
-              <div className="facts-info">
-                <strong>1220</strong>
-                <p className="text">photos taken</p>
-              </div>
-            </div>
-
-            <div className="facts-item">
-              <span className="fas fa-umbrella-beach  facts-icon"></span>
-              <div className="facts-info">
-                <strong>450</strong>
-                <p className="text">beaches visited</p>
-              </div>
-            </div>
-
-            <div className="facts-item">
-              <span className="fas fa-mountain facts-icon"></span>
-              <div className="facts-info">
-                <strong>84</strong>
-                <p className="text">mountains climbed</p>
-              </div>
-            </div>
-
-            <div className="facts-item">
-              <span className="fas fa-ship facts-icon"></span>
-              <div className="facts-info">
-                <strong>120</strong>
-                <p className="text">cruises organized</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Ourteam />
       <Footer />
     </div>
   )

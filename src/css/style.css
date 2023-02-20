@@ -219,8 +219,9 @@ header {
   margin-top: 1.8rem;
 }
 .header-form form .form-control {
-  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+  /* -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4); */
+  /* box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4); */
+  border: 1px solid gray;
 }
 .header-form input[type="date"] {
   text-transform: uppercase;

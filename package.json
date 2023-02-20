@@ -20,6 +20,8 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-dropzone": "^14.2.3",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.7.1",
     "react-id-swiper": "^4.0.0",
     "react-image-gallery": "^1.2.11",
     "react-router-dom": "^6.8.1",
