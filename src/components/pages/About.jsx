@@ -22,18 +22,18 @@ function About() {
             <div className="about-right">
               <h2>Kyah Tra</h2>
               <p className="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                vitae sed aperiam qui repudiandae earum voluptatem. Modi at
-                inventore omnis veniam necessitatibus exercitationem vel
-                nesciunt delectus ex officiis, culpa doloremque odit illo saepe
-                placeat. Delectus consequuntur reprehenderit omnis accusantium
-                officiis!
+              People often inquire about the significance of KYAH. It appears that this is a relatively new term to many. KYAH is a Filipino expression of endearment used for an older brother, referred to as "KUYA". This travel agency was named after the owner's love of travel, meeting lots of people in the street who appreciate the sunshine and the ocean, thus the name of the travel agency.
+              KYAH Travel & Tours is based in Studio City, Filinvest City, Alabang, and Muntinlupa City, Philippines. We began our business in Alabang, Muntinlupa City in 2018.
+              Our staff is comprised of highly skilled individuals in the tourism sector focused on our priority of Quality Service and Customer Satisfaction. We are travelers ourselves, so our goal is to provide world-class services to every customer and take them to their desired destination to Discover the Philippines in Comfort and Luxury, without breaking the bank. 
+              To give our customers better service, we offer diverse tailored services for everyone’s journey requirements like:
+              Terrestrial Tour Packages
               </p>
               <p className="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique explicabo blanditiis quidem consequuntur qui quaerat
-                fuga iste tenetur consequatur porro. Aliquam maiores alias
-                doloribus at quisquam quo numquam perferendis. Odit!
+                Group and Private tours
+              Urban Tours within Ilocos, Baguio, Anawangin, Sagada & La Union
+              Vacation & Promotion Travel Packages across the Philippines
+              We also supply Exclusive Travel Services 24/7  on the go to make their travel hassle-free. It’s like having your own private TRAVEL SERVICES DEPARTMENT 24/7, yet at a LOWER COST.
+              Experience the Philippines in Splendor and Ease with KYAH Travel and Tours!
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ function About() {
       <Ourteam />
       <Footer />
     </div>
-  )
+  );
 }
 
 export default About;

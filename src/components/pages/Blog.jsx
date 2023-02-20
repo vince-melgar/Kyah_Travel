@@ -18,18 +18,14 @@ function Blog() {
             <div className="blog-item my-2 shadow">
               <div className="blog-item-top">
                 <img src="../src/images/blog-1.jpg" alt="blog" />
-                <span className="blog-date">Feb 6, 2023</span>
+                <span className="blog-date">February 6, 2023</span>
               </div>
               <div className="blog-item-bottom">
-                <span>Panagbenga Festival</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+                <a>
+                  Panagbenga Festival
                 </a>
                 <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
+                The Panagbenga Festival, also known as the "Baguio Flower Festival," is an annual celebration held in Baguio City, Philippines. It is a month-long event that starts from the first of February and culminates in a grand parade and street dancing on the last Sunday of the month. 
                 </p>
               </div>
             </div>
@@ -37,75 +33,14 @@ function Blog() {
             <div className="blog-item my-2 shadow">
               <div className="blog-item-top">
                 <img src="../src/images/blog-2.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
+                <span className="blog-date">February 2, 2023</span>
               </div>
               <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+                <a>
+                  Sagada Festival
                 </a>
                 <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
-                </p>
-              </div>
-            </div>
-
-            <div className="blog-item my-2 shadow">
-              <div className="blog-item-top">
-                <img src="../src/images/blog-3.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
-              </div>
-              <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
-                </a>
-                <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
-                </p>
-              </div>
-            </div>
-
-            <div className="blog-item my-2 shadow">
-              <div className="blog-item-top">
-                <img src="../src/images/blog-4.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
-              </div>
-              <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
-                </a>
-                <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
-                </p>
-              </div>
-            </div>
-
-            <div className="blog-item my-2 shadow">
-              <div className="blog-item-top">
-                <img src="../src/images/blog-5.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
-              </div>
-              <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
-                </a>
-                <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
+                The Sagada Festival is a time of joy and celebration, as locals and visitors alike come together to participate in a variety of events and activities. From traditional dances to music performances, cultural exhibits to sports competitions, there's something for everyone to enjoy. 
                 </p>
               </div>
             </div>
@@ -113,59 +48,63 @@ function Blog() {
             <div className="blog-item my-2 shadow">
               <div className="blog-item-top">
                 <img src="../src/images/blog-6.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
+                <span className="blog-date">January 14, 2023 </span>
               </div>
               <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+                <a>
+                  Anawangin Escapade
                 </a>
                 <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
+                Anawangin Cove is a hidden gem located in the province of Zambales, Philippines. This secluded beach is accessible only by boat, which makes it a perfect destination for those who want to escape the city and immerse themselves in nature. Island hopping is also a popular activity in Anawangin Cove. Nearby islands like Capones Island and Camara Island are stunning and offer a unique experience for visitors.
                 </p>
               </div>
             </div>
 
             <div className="blog-item my-2 shadow">
               <div className="blog-item-top">
-                <img src="../src/images/blog-7.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
+                <img src="../src/images/blog-5.jpg" alt="blog" />
+                <span className="blog-date">December 16, 2022</span>
               </div>
               <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+                <a>
+                  Baggak Festival
                 </a>
                 <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
+                The town of Bauang, La Union, springs to life to put on this vibrant celebration. It is customary in Bauang for "Baggak" to be used as a metaphor for the beginning of a new day. There is an inherent unity and variety of culture in the Ilocano spirit shown during this event In addition, this is an appropriate time to greet and mingle with the returning family members. The festival's anniversary will be marked with a different theme each year.
+                </p>
+              </div>
+            </div>
+            
+            <div className="blog-item my-2 shadow">
+              <div className="blog-item-top">
+                <img src="../src/images/blog-3.jpg" alt="blog" />
+                <span className="blog-date">June 23, 2022</span>
+              </div>
+              <div className="blog-item-bottom">
+                <a>
+                Empanada Festival
+                </a>
+                <p className="text">
+                The noticeable orange tint containing a savory filling of the garlicky-flavored Batac longganisa, grated papaya, bean sprouts (toge), and egg makes the iconic look and taste of the Batac Empanada that is now sold outside its city of origin, Batac City, Ilocos Norte – even reaching faraway provinces.
                 </p>
               </div>
             </div>
 
             <div className="blog-item my-2 shadow">
               <div className="blog-item-top">
-                <img src="../src/images/blog-8.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
+                <img src="../src/images/blog-4.jpg" alt="blog" />
+                <span className="blog-date">April 6, 2022</span>
               </div>
               <div className="blog-item-bottom">
-                <span>travel | john doe</span>
-                <a href="#">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+                <a>
+                  Sillag: Festival of Lights
                 </a>
                 <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio voluptatem nulla harum accusantium tempora dicta
-                  quas quod id, repellat temporibus illo libero explicabo
-                  laboriosam.
+                The Sillag Festival was first held in 2012 in the province of Aurora, Philippines. The festival was created as a way to promote the province's tourism industry, as well as to celebrate the province's rich culture and history. The festival's name, "Sillag," is derived from the local term for "moonbeam" or "moonlight."
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </section>
