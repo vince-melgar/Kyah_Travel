@@ -1,5 +1,18 @@
 import { Link } from "react-router-dom";
+import { useAuth0 } from '@auth0/auth0-react'
+
 function Navbar() {
+
+const { 
+        loginWithRedirect,         
+        isAuthenticated,
+        isLoading,
+        logout } = useAuth0();
+
+if (isLoading) {
+        return<div>Loading...</div>
+}
+
     return(
 
 <nav className="navbar  sticky-top navbar-dark navbar-expand-lg bg-dark shadow small" >
@@ -37,15 +50,14 @@ function Navbar() {
                                     <Link to="/Blog" className="nav-link">Blog</Link>
                             </li>
                     </ul>
-                         <form class="d-flex">
-                                <Link to="/LoginForm" classname="nav-link">
-                                        <button class="btn btn-outline-success" style={{ padding: "10px", margin: "0 15px" }}>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                                </svg>
-                                        </button>
-                                </Link>
+                         <form class="d-flex"> 
+                                { isAuthenticated ? <button className="btn btn-link nav-link " onClick={() => logout({ logoutParams: { returnTo: window.location.origin}})}>Log Out</button> : <button className="btn btn-link nav-link " onClick={() => loginWithRedirect()}>Log In</button>}                               
+                                {/* <button onClick={() => loginWithRedirect()} class="btn btn-outline-success" style={{ padding: "10px", margin: "0 15px" }} >
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                        </svg>
+                                </button>                                 */}
                         </form>
                 </div>
         </div>
