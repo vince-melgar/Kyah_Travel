@@ -18,10 +18,10 @@ function Blog() {
             <div className="blog-item my-2 shadow">
               <div className="blog-item-top">
                 <img src="../src/images/blog-1.jpg" alt="blog" />
-                <span className="blog-date">oct 28, 2021</span>
+                <span className="blog-date">Feb 6, 2023</span>
               </div>
               <div className="blog-item-bottom">
-                <span>travel | john doe</span>
+                <span>Panagbenga Festival</span>
                 <a href="#">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit?
                 </a>
