@@ -1,12 +1,12 @@
 import Navbar from "../Navbar";
-import Header from "../Header";
+import Hero from "../Hero/Hero"
 import Footer from "../Footer";
 
 function Blog() {
   return (
     <div>
       <Navbar />
-      <Header />
+      <Hero />
       <section id="blog" className="py-4">
         <div className="container">
           <div className="title-wrap">
