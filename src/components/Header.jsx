@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import HeaderForm from "./header/HeaderForm";
 
 function Header() {
@@ -64,10 +64,12 @@ function Header() {
               </div>
             </div>
           </div>
-        </div>
+        </div>   
       </header>
     </div>
   );
 }
 
+
 export default Header;
+
