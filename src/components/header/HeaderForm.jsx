@@ -35,7 +35,7 @@ const HeaderForm = () => {
         <Form.Label>No. of PAX</Form.Label>
         <Form.Select aria-label="No. of PAX" className="mb-3">
           {[...Array(14).keys()].map((__, index) => (
-            <option>{index + 1}</option>
+            <option key={index}>{index + 1}</option>
           ))}
         </Form.Select>
       </Form>
