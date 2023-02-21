@@ -1,5 +1,4 @@
 import Navbar from "../Navbar";
-import Header from "../Header";
 import Footer from "../Footer";
 import Album from "../Album";
 
@@ -8,7 +7,8 @@ function Gallery() {
   return (
     <div>
       <Navbar />
-      <Header />
+      <h1 className="text-center">Photo Gallery</h1>
+      <hr/>
       <Album />
       <Footer />
     </div>    
