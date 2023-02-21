@@ -8,7 +8,7 @@ function Gallery() {
   return (
     <div>
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <Album />
       <Footer />
     </div>    
