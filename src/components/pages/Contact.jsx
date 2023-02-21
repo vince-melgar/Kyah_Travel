@@ -6,6 +6,7 @@ function Contact() {
   return (
     <div>
       <Navbar />
+      {/* <Header /> */}
       <section id="contact" className="py-4">
         <div className="container">
           <div className="title-wrap">

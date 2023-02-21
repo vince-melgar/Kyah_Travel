@@ -1,5 +1,9 @@
 import React from 'react';
-import HeaderForm from "./header/HeaderForm";
+import Addbooking from './header/Addbooking';
+// import Bookings from './header/Bookings';
+
+
+
 
 function Header() {
   return (
@@ -33,7 +37,7 @@ function Header() {
             data-bs-keyboard="false"
             tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
+            aria-hidden="true"            
           >
             <div className="modal-dialog text-black">
               <div className="modal-content">
@@ -48,19 +52,7 @@ function Header() {
                     aria-label="Close"
                   ></button>
                 </div>
-                <HeaderForm />
-                <div className="modal-footer">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Cancel
-                  </button>
-                  <button type="button" className="btn btn-primary">
-                    Submit and book
-                  </button>
-                </div>
+                <Addbooking></Addbooking>
               </div>
             </div>
           </div>

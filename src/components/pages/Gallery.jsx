@@ -9,6 +9,7 @@ function Gallery() {
       <Navbar />
       <h1 className="text-center">Photo Gallery</h1>
       <hr/>
+      {/* <Header /> */}
       <Album />
       <Footer />
     </div>    

@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <Navbar />
-
+      {/* <Header /> */}
       <section id="about" className="py-4">
         <div className="container">
           <div className="text-center mb-4">
@@ -45,9 +45,7 @@ function About() {
           </div>
         </div>
       </section>
-
       <Ourteam />
-
       <Footer />
     </div>
   );
