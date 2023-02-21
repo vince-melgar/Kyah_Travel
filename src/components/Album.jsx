@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 import Img1 from "../images/gallery-1.jpg";
 import Img2 from "../images/gallery-2.jpg";
@@ -53,21 +55,36 @@ const Album = () => {
   
   const [model, setModel] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState('');
+  const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
-  const getImg = (imgSrc) => {
+  const openModel = (imgSrc, index) => {
     setTempImgSrc(imgSrc);
+    setCurrentImgIndex(index);
     setModel(true);
+  };
+
+  const nextImg = () => {
+    setCurrentImgIndex((currentImgIndex + 1) % data.length);
+    setTempImgSrc(data[(currentImgIndex + 1) % data.length].imgSrc);
+  };
+
+  const prevImg = () => {
+    setCurrentImgIndex((currentImgIndex - 1 + data.length) % data.length);
+    setTempImgSrc(data[(currentImgIndex - 1 + data.length) % data.length].imgSrc);
   };
 
   return (
     <>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgSrc} />
-            <CloseIcon onClick={() => setModel(false)} />
+          <CloseIcon onClick={() => setModel(false)} />  
+          {/* <ArrowBackIosIcon onClick={prevImg} className="arrow-btn" />
+          <ArrowForwardIosIcon onClick={nextImg} className="arrow-btn" /> */}
       </div>
       <div className="gallery">
+        
         {data.map((item, index ) => (
-          <div className="pics" key={item.id} onClick={() => getImg(item.imgSrc)}>
+          <div className="pics" key={item.id} onClick={() => openModel(item.imgSrc, index)}>
             <img src={item.imgSrc} style={{ width: '100%' }} alt={`gallery-${item.id}`} />
           </div>
         ))}

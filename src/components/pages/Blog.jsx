@@ -6,7 +6,7 @@ import Footer from "../Footer";
 function Blog() {
   return (
     <div>
-      <Navbar />      
+      <Navbar />     
       {/* <Header /> */}
       <section id="blog" className="py-4">
         <div className="container">
