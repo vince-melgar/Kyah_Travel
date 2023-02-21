@@ -71,10 +71,6 @@ header {
       from(rgba(0, 0, 0, 0.4)),
       to(rgba(0, 0, 0, 0.4))
     ),
-    url(../images/kyah_bg.jpg) center/cover no-repeat;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/kyah_bg.jpg) center/cover no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/header-bg3.jpg) center/cover no-repeat;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -248,24 +244,6 @@ header {
   margin-top: 0.8rem;
 }
 
-/* change background on scroll */
-.navbar-cng {
-  background-color: #fff;
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(48, 48, 48, 0.2);
-  box-shadow: 0px 4px 5px 0px rgba(48, 48, 48, 0.2);
-  -webkit-transition: var(--trans);
-  -o-transition: var(--trans);
-  transition: var(--trans);
-}
-.navbar-cng .site-brand {
-  color: var(--dark);
-}
-.navbar-cng .site-brand span {
-  color: var(--green);
-}
-.navbar-cng #navbar-show-btn {
-  color: var(--green);
-}
 
 /* featured */
 .featured-item {
@@ -419,38 +397,6 @@ header {
 }
 .test-item-info h3 {
   font-size: 1rem;
-}
-
-/* video */
-.video-wrapper {
-  height: 500px;
-  position: relative;
-}
-.video-wrapper video {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-#play-btn {
-  position: absolute;
-  z-index: 5;
-  width: 70px;
-  height: 70px;
-  background-color: var(--green);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.8rem;
-  padding-left: 0.4rem;
-  -webkit-transition: var(--trans);
-  -o-transition: var(--trans);
-  transition: var(--trans);
-}
-#play-btn:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 /* footer */
@@ -821,45 +767,6 @@ header.header-sm {
 }
 .about-right h2 {
   margin-bottom: 2.5rem;
-}
-
-/* facts */
-#facts {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
-    url(../images/facts-img.jpg) center/cover no-repeat;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/facts-img.jpg) center/cover no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/facts-img.jpg) center/cover no-repeat;
-  min-height: 80vh;
-}
-#facts .title-wrap {
-  color: #fff;
-}
-#facts .sm-title {
-  color: #fff;
-}
-.facts-item {
-  color: #fff;
-  text-align: center;
-  padding: 2rem 0;
-}
-.facts-icon {
-  font-size: 3.2rem;
-}
-.facts-info strong {
-  font-size: 2rem;
-  display: block;
-  margin: 1rem 0;
-}
-.facts-info .text {
-  text-transform: uppercase;
 }
 
 /* ### CONTACT PAGE ### */

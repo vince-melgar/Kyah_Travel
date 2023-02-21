@@ -42,7 +42,7 @@ function Contact() {
                 </span>
                 <div>
                   <span>Phone</span>
-                  <p className="text">+01-584-886-009</p>
+                  <p className="text">0917 147 7889</p>
                 </div>
               </div>
               <div className="contact-item">
@@ -51,7 +51,7 @@ function Contact() {
                 </span>
                 <div>
                   <span>Address</span>
-                  <p className="text">102 East 22nd Street, NY</p>
+                  <p className="text">Studio City Filinvest City Alabang Muntinlupa, Muntinlupa City, Philippines, 1771</p>
                 </div>
               </div>
               <div className="contact-item">
@@ -60,7 +60,7 @@ function Contact() {
                 </span>
                 <div>
                   <span>Message</span>
-                  <p className="text">info@tripboss.com</p>
+                  <p className="text">kyah_tra@gmail.com</p>
                 </div>
               </div>
             </div>
