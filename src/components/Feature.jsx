@@ -42,25 +42,29 @@ function Feature() {
                                     {showMore.baguio && (
                                         <p className="text">
                                             Inclusions
-                                            Van transfer
-                                            2 nights accommodation
-                                            Baguio city tour
-                                            Driver
-                                            Diesel
-                                            Toll gate
-                                            Parking fees
-                                            Environmental fees
-                                            Entrance fees at (
+                                            <ul>
+                                                <li>Van transfer</li>
+                                                <li>2 nights accommodation</li>
+                                                <li>City tour</li>
+                                                <li>Driver</li>
+                                                <li>Diesel</li>
+                                                <li>Toll gate</li>
+                                                <li>Parking fees</li>
+                                                <li>Environmental fees</li>
+                                                <li>Entrance fees at (
                                             Old diplomat hotel
-                                            Minesview)
-                                            <br /> <br />
+                                            Minesview)</li>
+                                            </ul>
+                                            <br />
                                             Exclusions
-                                            Meals
-                                            Activities
-                                            Other entrance fees
+                                            <ul>
+                                            <li>Meals</li>
+                                            <li>Activities</li>
+                                            <li>Other entrance fees</li>
+                                            </ul>
                                         </p>
                                     )}
-                                    <button onClick={() => toggleShowMore('baguio')}>
+                                    <button class="btn btn-success" onClick={() => toggleShowMore('baguio')}>
                                         {showMore.baguio ? 'Read Less' : 'Read More'}
                                     </button>
                                 </div>
@@ -82,10 +86,27 @@ function Feature() {
                                     </p>
                                     {showMore.ilocos && (
                                         <p className="text">
-                                            Some additional information about Ilocos could go here.
+                                            Inclusions
+                                            <ul>
+                                                <li>Van transfer</li>
+                                                <li>2 nights accommodation</li>
+                                                <li>City tour</li>
+                                                <li>Driver</li>
+                                                <li>Diesel</li>
+                                                <li>Toll gate</li>
+                                                <li>Parking fees</li>
+                                                <li>Environmental fees</li>
+                                            </ul>
+                                            <br />
+                                            Exclusions
+                                            <ul>
+                                            <li>Meals</li>
+                                            <li>Activities</li>
+                                            <li>Other entrance fees</li>
+                                            </ul>
                                         </p>
                                     )}
-                                    <button onClick={() => toggleShowMore('ilocos')}>
+                                    <button class="btn btn-success" onClick={() => toggleShowMore('ilocos')}>
                                         {showMore.ilocos ? 'Read Less' : 'Read More'}
                                     </button>
                                 </div>
@@ -106,10 +127,27 @@ function Feature() {
                                     </p>
                                     {showMore.anawangin && (
                                         <p className="text">
-                                            Some additional information             about Anawangin Cove could go here.
+                                           Inclusions
+                                            <ul>
+                                                <li>Van transfer</li>
+                                                <li>2 nights accommodation</li>
+                                                <li>City tour</li>
+                                                <li>Driver</li>
+                                                <li>Diesel</li>
+                                                <li>Toll gate</li>
+                                                <li>Parking fees</li>
+                                                <li>Environmental fees</li>
+                                            </ul>
+                                            <br />
+                                            Exclusions
+                                            <ul>
+                                            <li>Meals</li>
+                                            <li>Activities</li>
+                                            <li>Other entrance fees</li>
+                                            </ul>
                                         </p>
                                     )}
-                                    <button onClick={() => toggleShowMore('anawangin')}>
+                                    <button class="btn btn-success" onClick={() => toggleShowMore('anawangin')}>
                                         {showMore.anawangin ? 'Read Less' : 'Read More'}
                                     </button>
                                 </div>
@@ -131,10 +169,27 @@ function Feature() {
                                     </p>
                                     {showMore.sagada && (
                                         <p className="text">
-                                            Some additional information about Sagada could go here.
+                                            Inclusions
+                                            <ul>
+                                                <li>Van transfer</li>
+                                                <li>2 nights accommodation</li>
+                                                <li>City tour</li>
+                                                <li>Driver</li>
+                                                <li>Diesel</li>
+                                                <li>Toll gate</li>
+                                                <li>Parking fees</li>
+                                                <li>Environmental fees</li>
+                                            </ul>
+                                            <br />
+                                            Exclusions
+                                            <ul>
+                                            <li>Meals</li>
+                                            <li>Activities</li>
+                                            <li>Other entrance fees</li>
+                                            </ul>
                                         </p>
                                     )}
-                                    <button onClick={() => toggleShowMore('sagada')}>
+                                    <button class="btn btn-success" onClick={() => toggleShowMore('sagada')}>
                                         {showMore.sagada ? 'Read Less' : 'Read More'}
                                     </button>
                                 </div>
@@ -156,10 +211,27 @@ function Feature() {
                                     </p>
                                     {showMore.launion && (
                                         <p className="text">
-                                            Some additional information about La Union could go here.
+                                            Inclusions
+                                            <ul>
+                                                <li>Van transfer</li>
+                                                <li>2 nights accommodation</li>
+                                                <li>City tour</li>
+                                                <li>Driver</li>
+                                                <li>Diesel</li>
+                                                <li>Toll gate</li>
+                                                <li>Parking fees</li>
+                                                <li>Environmental fees</li>
+                                            </ul>
+                                            <br />
+                                            Exclusions
+                                            <ul>
+                                            <li>Meals</li>
+                                            <li>Activities</li>
+                                            <li>Other entrance fees</li>
+                                            </ul>
                                         </p>
                                     )}
-                                    <button onClick={() => toggleShowMore('launion')}>
+                                    <button class="btn btn-success" onClick={() => toggleShowMore('launion')}>
                                         {showMore.launion ? 'Read Less' : 'Read More'}
                                     </button>
                                 </div>
