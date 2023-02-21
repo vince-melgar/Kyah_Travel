@@ -24,7 +24,7 @@ function Header() {
           <h2>Choose your Travel location:</h2>
           <button
             type="button"
-            className="btn btn-primary"
+            className="btn btn-success"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
           >
