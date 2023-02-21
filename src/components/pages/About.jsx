@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      {/* <Header /> */}
+      <Header />
       <section id="about" className="py-4">
         <div className="container">
           <div className="title-wrap">

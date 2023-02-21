@@ -6,10 +6,11 @@ import Services from "../Services";
 import Testimonials from "../Testimonials";
 import Footer from "../Footer";
 
+
 function Home() {
   return (
     <div>
-      <Navbar />
+      <Navbar />   
       <Header />
       <Featured />
       <Services />

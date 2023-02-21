@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -9,7 +10,8 @@ function Navbar() {
   }
 
     return(
-    <>           
+    <>
+           
       <nav className="navbar  sticky-top navbar-dark navbar-expand-lg bg-dark shadow small" >
         <div className="container-fluid" style={{margin: "0 30px", fontWeight: " bolder" }}>
               <Link to="/" className="navbar-brand" style={{fontSize: "30px"}} >
@@ -51,6 +53,8 @@ function Navbar() {
               </div>
         </div>
       </nav>
+
+      
     </>
   );
 }
