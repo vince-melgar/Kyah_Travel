@@ -1,13 +1,11 @@
 import Navbar from "../Navbar";
-import Header from "../Header";
 import Footer from "../Footer";
 import Ourteam from "./Ourteam";
 
 function About() {
   return (
     <div>
-      <Navbar />
-      <Header />
+      <Navbar />      
       <section id="about" className="py-4">
         <div className="container">
           <div className="text-center mb-4">
