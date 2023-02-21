@@ -1,4 +1,4 @@
-import React from "react";
+import Renact from "react";
 import Navbar from "../Navbar";
 import Header from "../Header";
 import Featured from "../Feature";
