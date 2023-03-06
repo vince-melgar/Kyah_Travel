@@ -214,11 +214,7 @@ header {
   flex-direction: column;
   margin-top: 1.8rem;
 }
-  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
- .header-form form .form-control {
- box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
 
-}
 .header-form input[type="date"] {
   text-transform: uppercase;
 }
